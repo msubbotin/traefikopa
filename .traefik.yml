@@ -1,6 +1,6 @@
 displayName: OPA Authorization middleware for Traefik
 type: middleware
-import: github.com/edgeflare/traefikopa
+import: github.com/msubbotin/traefikopa
 summary: >
   This middleware forwards requests to the Open Policy Agent (OPA) for authorization. 
   The middleware expects a boolean "allow" value from OPA and denies requests if "allow" is set to false. 
